@@ -1,0 +1,30 @@
+.btn-scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  border: transparent;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.btn-scroll-top svg {
+  width: 40px;
+  height: 40px;
+
+  fill: #3d3b3b;
+
+  &:hover {
+    transition: all 1s;
+    fill: #000;
+    font-weight: 600;
+  }
+}
+
+.btn-scroll-top.show {
+  opacity: 1;
+  visibility: visible;
+}

@@ -1,0 +1,72 @@
+footer.footer {
+  margin-top: 20px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  color: #3d3b3b;
+  padding: 20px;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #3d3b3b;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Montserrat-Regular", sans-serif;
+}
+
+.footer-container a:hover {
+  color: #000;
+}
+
+.footer__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+footer .logo {
+  font-size: 20px;
+  font-family: "Montserrat-Regular", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 36px;
+}
+
+.catalog__link {
+  margin: 20px 50px;
+}
+
+.catalog a,
+.catalog__title {
+  color: #3d3b3b;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Montserrat-Regular", sans-serif;
+}
+
+.catalog__text {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.telegram {
+  position: absolute;
+  right: 30px;
+}
+
+.telegram a {
+  display: flex;
+  align-items: center;
+}
+
+.telegram svg {
+  padding: 0 15px 0 0;
+}
